@@ -20,7 +20,7 @@ router.post("/", (req, res) => {
     });
   } else {
     // 기존 배열에 과일이 존재하지 않는다.
-    fruitArr.pust(fruit);
+    fruitArr.push(fruit);
     fruitArr.sort();
     res.status(200).json({
       message: "과일 추가가 완료 되었습니다."
