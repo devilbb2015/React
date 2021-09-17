@@ -1,9 +1,14 @@
 var express = require('express');
 var router = express.Router();
 
+const con = require("../../modules/mysql");
+
 let todolistArr = [
   
 ];
+
+
+
 
 // todoList 생성
 // method : POST
